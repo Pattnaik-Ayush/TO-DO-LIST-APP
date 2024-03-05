@@ -65,7 +65,7 @@ class todopopupFragment : DialogFragment() {
                     listener.onUpdateTask(toDoData!!,binding.todoEt)
                 }
                 Toast.makeText(context, "Task added succesfully", Toast.LENGTH_SHORT).show()
-                listener.onSaveTask(todotask, binding.todoEt)
+                //listener.onSaveTask(todotask, binding.todoEt)
             } else {
                 Toast.makeText(context, "Please add some task", Toast.LENGTH_SHORT).show()
             }
